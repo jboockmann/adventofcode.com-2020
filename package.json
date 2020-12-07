@@ -16,7 +16,9 @@
   },
   "devDependencies": {},
   "scripts": {
-
+    "autoformat": "prettier --write src/**/*.ts",
+    "start": "ts-node src/main.ts",
+    "dev": "npx onchange 'src/**/*.ts' -- ts-node 'src/main.ts'"
   },
   "author": "Jan H. Boockmann",
   "license": "ISC"
