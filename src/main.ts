@@ -1,5 +1,10 @@
+import { day01 } from "./day-01/main";
 import { day07 } from "./day-07/main";
 import { day08 } from "./day-08/main";
+
+console.log("DAY 01");
+day01();
+console.log();
 
 console.log("DAY 07");
 day07();
