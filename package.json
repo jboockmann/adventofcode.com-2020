@@ -18,7 +18,7 @@
   "scripts": {
     "autoformat": "prettier --write src/**/*.ts",
     "start": "ts-node src/main.ts",
-    "dev": "npx onchange 'src/**/*.ts' -- ts-node 'src/main.ts'"
+    "dev": "onchange \"src/**/*.ts\" -- npm run start"
   },
   "author": "Jan H. Boockmann",
   "license": "ISC"
