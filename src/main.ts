@@ -1,4 +1,4 @@
-import { day10 } from "./day-10/main";
-console.log("DAY 10");
-day10();
+import { day13 } from "./day-13/main";
+console.log("DAY 13");
+day13();
 console.log();
